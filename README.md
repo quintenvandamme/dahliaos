@@ -6,7 +6,7 @@
 
 **64/32 uefi systems and 64 bios systems**
 
-1 download the latest **iso [here](https://github.com/HexaOneOfficial/dahilaos/releases/)**. 
+1 download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/)**. 
 
 2 then flash the iso to your usb with **rufus [here](https://rufus.ie/)**.
 
