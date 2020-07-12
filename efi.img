@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<braseroproject>
+	<version>0.2</version>
+	<label>EFI.img</label>
+	<track>
+		<data>
+			<graft>
+				<path>/efi/</path>
+				<uri>file%3A%2F%2F%2Fhome%2Fquinten%2FBureaublad%2Fefi</uri>
+			</graft>
+			<excluded>file%3A%2F%2F%2Fhome%2Fquinten%2FBureaublad%2Fefi</excluded>
+		</data>
+	</track>
+</braseroproject>
