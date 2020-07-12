@@ -15,7 +15,7 @@
 
 **32 bios systems**
 
-1 download the latest 32 bit **iso [here](https:)**.
+1 download the latest **iso [here](https:)**.
 
 2 then flash the iso to your usb with **rufus [here](https://rufus.ie/)**.
 
