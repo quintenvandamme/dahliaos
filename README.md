@@ -22,7 +22,3 @@
 3 disable secure boot if you have that option.
  
  
-###  build your own iso
-
-soon
-
