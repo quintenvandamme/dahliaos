@@ -2,11 +2,20 @@
 
 ## how to make a bootable usb
 
-### windows
+### x86_64
 
 **64/32 uefi systems and 64 bios systems**
 
 1 download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/)**. 
+
+2 then flash the iso to your usb with **rufus [here](https://rufus.ie/)**.
+
+3 disable secure boot if you have that option.
+ 
+
+**32 bios systems**
+
+1 download the latest 32 bit **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/)**.
 
 2 then flash the iso to your usb with **rufus [here](https://rufus.ie/)**.
 
