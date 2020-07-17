@@ -1,5 +1,7 @@
 # 200630_2
 
+official repo https://github.com/dahlia-os
+
 ## this is the first build of dahliaos on grub!
 
 ### what does this mean?
