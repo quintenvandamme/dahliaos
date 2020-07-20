@@ -1,4 +1,4 @@
-# dahliaos
+# dahliaos grub
 
 ## how to make a bootable usb
 
@@ -21,3 +21,5 @@
 
 3 boot from usb.
 
+
+## building iso
