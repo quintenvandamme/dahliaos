@@ -60,7 +60,12 @@
 
 -**finalizing** 
  
+ - save `./finalize.sh` in your home directory
+ 
+ - `chmod +x finalize.sh` 
+
  - `./finalize.sh`
+
 
 Now copy the files to a windows pc.
 
