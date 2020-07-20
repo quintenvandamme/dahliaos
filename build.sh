@@ -1,10 +1,11 @@
 mkdir ~/builddahliagrub
 cd 
-cp -r /dahliaos ~/builddahliagrub
-cd builddahliagrub
+cp -r ~/dahliaos ~/builddahliagrub
+cd ~/builddahliagrub
 mkdir boot
 mkdir dahlia 
 mkdir EFI
+cd ~/builddahliagrub/dahliaos
 chmod +x buildEFI.sh
 chmod +x buildGRUB.sh
 chmod +x buildKERNEL.sh
