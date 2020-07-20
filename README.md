@@ -20,3 +20,5 @@
 2 then flash the iso to your usb with **rufus [here](https://rufus.ie/)**.
 
 3 disable secure boot if you have that option.
+
+<a href="http://example.com/files/myfile.pdf" target="_blank">Download</a>
