@@ -29,7 +29,7 @@
 
 -**copy base components to builddahliagrub**
 
-- `cd dahliaos` 
+- save `./install.sh` in your home directory
 
 - `chmod +x build.sh` 
 
