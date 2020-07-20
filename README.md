@@ -62,6 +62,8 @@
  
  - save `./finalize.sh` in your home directory
  
+ - `cd` 
+ 
  - `chmod +x finalize.sh` 
 
  - `./finalize.sh`
