@@ -1,1 +1,1 @@
-cp /kernel/bzImage ~/builddahliagrub/dahlia
+cp ~/builddahliagrub/dahliaos/kernel/bzImage ~/builddahliagrub/dahlia

@@ -1,1 +1,1 @@
-cp -r /BOOT ~/builddahliagrub/EFI
+cp -r ~/builddahliagrub/dahliaos/BOOT ~/builddahliagrub/EFI
