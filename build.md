@@ -6,7 +6,7 @@
 
 -**copy base components to builddahliagrub**
 
-- `cd dahliaos` 
+- copy and save `./build.sh` from above in your home directory
 
 - `chmod +x build.sh` 
 
@@ -14,9 +14,7 @@
 
 -**building EFI**  
 
-- `cd`
-
-- `cd builddahliagrub` 
+- `cd ~/builddahliagrub/dahliaos/` 
 
 - `./buildEFI.sh`
 
@@ -39,7 +37,16 @@
 
 -**finalizing** 
  
+ - copy and save `./finalize.sh` from above in your home directory
+ 
+ - `cd` 
+ 
+ - `chmod +x finalize.sh` 
+
  - `./finalize.sh`
+ 
+ - ignore remove .git issue's 
+
 
 Now copy the files to a windows pc.
 
@@ -50,3 +57,4 @@ Now copy the files to a windows pc.
 -**flashing to usb** 
 
 - only rufus is supported! open rufus and flash your iso file you made. 
+
