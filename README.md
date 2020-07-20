@@ -37,9 +37,7 @@
 
 -**building EFI**  
 
-- `cd`
-
-- `cd /builddahliagrub/dahliaos/` 
+- `cd ~/builddahliagrub/dahliaos/` 
 
 - `./buildEFI.sh`
 
