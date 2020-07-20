@@ -20,4 +20,8 @@
 2 then flash the iso to your usb with **rufus [here](https://rufus.ie/)**.
 
 3 disable secure boot if you have that option.
+
+{% raw %}
+<button onclick="window.open('/books/book.pdf')">Download</button>
+{% endraw %}
  
