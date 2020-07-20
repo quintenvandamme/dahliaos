@@ -2,44 +2,44 @@
 
 -**First you need to clone the base components**
  
- -`git clone https://github.com/HexaOneOfficial/dahliaos.git` 
+ - `git clone https://github.com/HexaOneOfficial/dahliaos.git` 
 
 -**copy base components to builddahliagrub**
 
--`cd dahliaos` 
+- `cd dahliaos` 
 
--`chmod +x build.sh` 
+- `chmod +x build.sh` 
 
--`./build.sh`
+- `./build.sh`
 
 -**building EFI**  
 
--`cd`
+- `cd`
 
--`cd builddahliagrub` 
+- `cd builddahliagrub` 
 
--`./buildEFI.sh`
+- `./buildEFI.sh`
 
 -**building GRUB bootloader** 
 
--`./buildGRUB.sh`
+- `./buildGRUB.sh`
 
 -**setting up linux kernel** 
  
  -1 copy from included build source [recommended]     
  
- -`./buildKERNEL.sh`
+ - `./buildKERNEL.sh`
  
  -2 copy from system [not recommended]    
    - not complete  
 
 -**setting up dahlia image** 
  
- -`./buildIMAGE.sh`
+ - `./buildIMAGE.sh`
 
 -**finalizing** 
  
- -`./finalize.sh`
+ - `./finalize.sh`
 
 Now copy the files to a windows pc.
 
