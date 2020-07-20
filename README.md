@@ -29,7 +29,7 @@
 
 -**copy base components to builddahliagrub**
 
-- save `./install.sh` in your home directory
+- save `./build.sh` in your home directory
 
 - `chmod +x build.sh` 
 
