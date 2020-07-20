@@ -19,5 +19,5 @@
 
 2 then flash the iso to your usb with **rufus [here](https://rufus.ie/)**.
 
-3 disable secure boot if you have that option.
+3 boot from usb.
 
