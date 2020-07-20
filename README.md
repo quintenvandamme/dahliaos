@@ -21,4 +21,3 @@
 
 3 disable secure boot if you have that option.
 
-<a href="http://example.com/files/myfile.pdf" target="_blank">Download</a>
