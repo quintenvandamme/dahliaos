@@ -67,6 +67,8 @@
  - `chmod +x finalize.sh` 
 
  - `./finalize.sh`
+ 
+ - ignore remove .git issue's 
 
 
 Now copy the files to a windows pc.
