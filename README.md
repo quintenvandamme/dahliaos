@@ -39,7 +39,7 @@
 
 - `cd`
 
-- `cd builddahliagrub` 
+- `cd /builddahliagrub/dahliaos/` 
 
 - `./buildEFI.sh`
 
