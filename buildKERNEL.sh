@@ -1,20 +1,30 @@
 #!/bin/bash
-# Bash Menu Script Example
 
-PS3='Please select a kernel: '
-options=("Default 5.6.15" "5.7.9" "Quit")
-select opt in "${options[@]}"
-do
-    case $opt in
-        "Default 5.6.15")
+HEIGHT=15
+WIDTH=40
+CHOICE_HEIGHT=4
+BACKTITLE="buildKERNEL"
+TITLE="buildKERNEL"
+MENU="Choose your kernel:"
+
+OPTIONS=(1 "Default 5.6.15"
+         2 "5.7.9")
+
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
+
+clear
+case $CHOICE in
+        1)
             cp ~/builddahliagrub/dahliaos/kernel/bzImage ~/builddahliagrub/dahlia
             ;;
-        "5.7.9")
+        2)
             cp ~/builddahliagrub/dahliaos/kernel/5.7.9/bzImage ~/builddahliagrub/dahlia
             ;;
-        "Quit")
-            break
-            ;;
-        *) echo "invalid option $REPLY";;
-    esac
-done
+        
+esac
