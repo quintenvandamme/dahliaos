@@ -39,13 +39,10 @@
 
 -**setting up linux kernel** 
  
- -1 copy from included build source [recommended]     
- 
- - `./buildKERNEL.sh`
- 
- -2 copy from system [not recommended]    
-   - not complete  
+- buildKERNEL provides a Deafault kernel and mainline.
 
+- `./buildKERNEL.sh`
+ 
 -**setting up dahlia image** 
  
  - `./buildIMAGE.sh`
