@@ -1,5 +1,7 @@
 # dahliaos grub
 
+[![HitCount](http://hits.dwyl.com/HexaOneOfficial/dahliaos.svg)](http://hits.dwyl.com/HexaOneOfficial/dahliaos)
+
 ## how to make a bootable usb
 
 ### x86_64
