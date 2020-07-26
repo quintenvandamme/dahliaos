@@ -71,7 +71,7 @@ Now copy the files to a windows pc.
 - only rufus is supported! open rufus and flash your iso file you made. 
 
                                                                                                                                 
-## Bonus: Make a Master boot record
+### Make a Master boot record
 When you have made the iso, go to command prompt. You can go to this by hitting windows + r and typing in cmd. (Make sure you are admin.) 
 
 -   Then, Run the following commands.
