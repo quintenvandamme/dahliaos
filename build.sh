@@ -17,3 +17,6 @@ cp ~/builddahliagrub/dahliaos/base/README.diskdefines ~/builddahliagrub/
 cp ~/builddahliagrub/dahliaos/base/autorun.ico ~/builddahliagrub/
 cp ~/builddahliagrub/dahliaos/base/autorun.inf ~/builddahliagrub/
 cp ~/builddahliagrub/dahliaos/base/syslinux.cfg ~/builddahliagrub/
+cp ~/builddahliagrub/dahliaos/finalize.sh ~/
+cd ~/
+chmod +x finalize.sh
