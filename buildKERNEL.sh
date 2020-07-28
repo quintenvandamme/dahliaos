@@ -9,8 +9,8 @@ MENU="Choose your kernel:"
 
 OPTIONS=(1 "Default 5.6.15"
          2 "latest 5.7.10"
-         3 "5.7.9")
-
+         3 "rc 5.8.0-rc7"
+         4 "5.7.9")
 CHOICE=$(dialog --clear \
                 --backtitle "$BACKTITLE" \
                 --title "$TITLE" \
@@ -29,6 +29,16 @@ case $CHOICE in
             wget "https://github.com/HexaOneOfficial/kerneldahlia/releases/download/5.7.10/bzImage"
             cp ~/bzImage ~/builddahliagrub/dahlia
         3)
+            cd
+            wget "https://github.com/HexaOneOfficial/kerneldahlia/releases/download/5.8.0rc7/linux5.8.0-rc7.zip"
+            cp linux5.8.0-rc7.zip ~/builddahliagrub/dahlia
+            cd ~/builddahliagrub/dahlia
+            unzip linux5.8.0-rc7.zip
+            rm BUILD
+            rm COPYING
+            rm linux5.8.0-rc7.zip
+        4)
             cp ~/builddahliagrub/dahliaos/kernel/5.7.9/bzImage ~/builddahliagrub/dahlia
-            ;; 
+            ;;
 esac
+
