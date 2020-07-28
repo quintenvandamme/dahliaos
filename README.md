@@ -27,16 +27,6 @@
 
 - `./build.sh`
 
--**building EFI**  
-
-- `cd ~/builddahliagrub/dahliaos/` 
-
-- `./buildEFI.sh`
-
--**building GRUB bootloader** 
-
-- `./buildGRUB.sh`
-
 -**setting up linux kernel** 
  
 - buildKERNEL provides a Deafault kernel and mainline.
