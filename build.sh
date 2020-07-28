@@ -20,3 +20,4 @@ cp ~/builddahliagrub/dahliaos/base/syslinux.cfg ~/builddahliagrub/
 cp ~/builddahliagrub/dahliaos/finalize.sh ~/
 cd ~/
 chmod +x finalize.sh
+cp -r ~/builddahliagrub/dahliaos/BOOT ~/builddahliagrub/EFI
