@@ -1,15 +1,15 @@
 #!/bin/bash
 
-HEIGHT=15
+HEIGHT=20
 WIDTH=40
-CHOICE_HEIGHT=4
+CHOICE_HEIGHT=6
 BACKTITLE="buildKERNEL"
 TITLE="buildKERNEL"
 MENU="Choose your kernel:"
 
 OPTIONS=(1 "Default 5.6.15"
          2 "latest 5.7.11"
-         3 "5.7.10")
+         3 "5.7.10"
          4 "5.7.9"
          5 "rc 5.8.0-rc7")
 CHOICE=$(dialog --clear \
