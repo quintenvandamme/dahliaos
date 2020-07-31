@@ -19,49 +19,41 @@
  
  - `git clone https://github.com/HexaOneOfficial/dahliaos.git` 
 
--**copy base components to builddahliagrub**
+-**Copy and make base components to ~/builddahliagrub**
 
-- copy and save `./build.sh` from above in your home directory
+- `wget https://raw.githubusercontent.com/HexaOneOfficial/dahliaos/master/build.sh` 
 
 - `chmod +x build.sh` 
 
 - `./build.sh`
 
--**setting up linux kernel** 
- 
-- buildKERNEL provides a Deafault kernel and mainline.
+-**Setting up linux Kernel** 
+
+- buildKERNEL provides a default kernel and mainline kernel select the one you want to use.
 
 - `./buildKERNEL.sh`
- 
--**setting up dahlia image** 
+
+-**Setting up dahlia image** 
  
  - `./buildIMAGE.sh`
 
--**finalizing** 
+-**Finalizing** 
  
- - copy and save `./finalize.sh` from above in your home directory
+- `./finalize.sh`
  
- - `cd` 
- 
- - `chmod +x finalize.sh` 
-
- - `./finalize.sh`
- 
- - ignore remove .git issue's 
-
 
 Now copy the files to a windows pc.
 
--**files to iso** 
+-**Files to iso** 
 
-- open poweriso and copy the build files you just made. 
+- Download **Poweriso [here](https://www.poweriso.com/)** and copy the build files you just made. 
 
--**flashing to usb** 
+-**Flashing to USB** 
 
-- only rufus is supported! open rufus and flash your iso file you made. 
+- Download **Rufus [here](https://rufus.ie/)** and flash your iso file to your USB.
 
-                                                                                                                                
-### Make a Master boot record
+
+### Make a Master boot record(BETA)
 When you have made the iso, go to command prompt. You can go to this by hitting windows + r and typing in cmd. (Make sure you are admin.) 
 
 -   Then, Run the following commands.
@@ -95,9 +87,3 @@ select your disk that you want to format:
     exit
 
 Extract the files from the iso, copy to the drive and use a disk clones of your choice to create a mbr iso.
-
- 
-
-
-
-
