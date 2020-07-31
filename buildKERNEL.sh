@@ -29,7 +29,7 @@ case $CHOICE in
         2)
             cd
             wget "https://github.com/HexaOneOfficial/kerneldahlia/releases/download/5.7.12/linux5.7.12.zip"
-            cp linux5.7.11zip ~/builddahliagrub/dahlia
+            cp linux5.7.12.zip ~/builddahliagrub/dahlia
             cd ~/builddahliagrub/dahlia
             unzip linux5.7.12.zip
             rm BUILD
@@ -54,7 +54,7 @@ case $CHOICE in
         5)
             cp ~/builddahliagrub/dahliaos/kernel/5.7.9/bzImage ~/builddahliagrub/dahlia
             ;;  
-            6)
+        6) 
             cd
             wget "https://github.com/HexaOneOfficial/kerneldahlia/releases/download/5.8.0rc7/linux5.8.0-rc7.zip"
             cp linux5.8.0-rc7.zip ~/builddahliagrub/dahlia
@@ -63,5 +63,5 @@ case $CHOICE in
             rm BUILD
             rm COPYING
             rm linux5.8.0-rc7.zip
-            ;;
+            ;;   
 esac
