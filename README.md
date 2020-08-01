@@ -1,5 +1,9 @@
 # dahliaos grub
 
+[![Build Status](https://travis-ci.com/HexaOneOfficial/dahliaos.svg?branch=master)](https://travis-ci.com/HexaOneOfficial/dahliaos) 
+
+
+
 ## how to make a bootable usb
 
 ### x86_64
