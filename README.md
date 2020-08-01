@@ -21,11 +21,7 @@
 
 -**Copy and make base components to ~/builddahliagrub**
 
-- `wget https://raw.githubusercontent.com/HexaOneOfficial/dahliaos/master/build.sh` 
-
-- `chmod +x build.sh` 
-
-- `./build.sh`
+- `curl -s https://raw.githubusercontent.com/HexaOneOfficial/dahliaos/master/build.sh | sh` 
 
 -**Setting up linux Kernel** 
 
