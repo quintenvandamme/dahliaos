@@ -6,7 +6,7 @@
 
 **64/32 uefi systems and 64 bios systems**
 
-1 download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)**. 
+1 download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)**. 
 
 2 then flash the iso to your usb with **etcher [here](https://www.balena.io/etcher/)**.
 
