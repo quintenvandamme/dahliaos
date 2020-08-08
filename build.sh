@@ -21,7 +21,23 @@ CHOICE=$(dialog --clear \
 clear
 case $CHOICE in
         1)
-            echo test
+            git clone https://github.com/HexaOneOfficial/dahliaos.git
+            mkdir ~/buildgrub
+            mkdir ~/buildgrub/boot
+            mkdir ~/buildgrub/EFI
+            mkdir ~/buildgrub/EFI/BOOT
+            cp ~/dahliaos/build/base/200804/grub/64/grub.zip ~/buildgrub/boot
+            cd ~/buildgrub/boot
+            unzip grub.zip
+            rm grub.zip
+            cp ~/dahliaos/build/kernel/200804/gurb/64/default/compiled/bzImage ~/buildgrub/boot
+            wget https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/initrd
+            cd
+            cd ~/dahliaos/build/EFI/200804/grub/64/
+            cp BOOTx64.EFI bootia32.efi grubx64.efi mmx64.efi ~/buildgrub/EFI/BOOT
+            cd
+            cd ~/dahliaos/build/base/200804/grub/64/
+            cp MD5SUMS README.diskdefines boot.catalog ldlinux.sys syslinux.cfg ~/buildgrub
             ;;
         2)
             git clone https://github.com/HexaOneOfficial/dahliaos.git
