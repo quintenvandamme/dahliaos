@@ -20,27 +20,11 @@
 
 ### build iso
 
--**First you need to clone the base components**
- 
- - `git clone https://github.com/HexaOneOfficial/dahliaos.git` 
-
--**Copy and make base components to ~/builddahliagrub**
+-**Run this script to build the iso files**
 
 - `curl -s https://raw.githubusercontent.com/HexaOneOfficial/dahliaos/master/build.sh | sh` 
 
--**Setting up linux Kernel** 
 
-- buildKERNEL provides a default kernel and mainline kernel select the one you want to use.
-
-- `./buildKERNEL.sh`
-
--**Setting up dahlia image** 
- 
- - `./buildIMAGE.sh`
-
--**Finalizing** 
- 
-- `./finalize.sh`
  
 
 Now copy the files to a windows pc.
@@ -54,7 +38,6 @@ Now copy the files to a windows pc.
 - Download **Rufus [here](https://rufus.ie/)** and flash your iso file to your USB.
 
 
-### make tiny dahlia image
 
 
 
