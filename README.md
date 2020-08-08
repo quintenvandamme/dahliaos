@@ -18,11 +18,11 @@
 3 disable secure boot if you have that option.
 
 
-### build iso
+## build iso
 
 -**Run this script to build the iso files**
 
-- `curl -s https://raw.githubusercontent.com/HexaOneOfficial/dahliaos/master/build.sh | sh` 
+- `curl -s https://raw.githubusercontent.com/HexaOneOfficial/dahliaos/master/scripts/64/run.sh | sh` 
 
 
  
