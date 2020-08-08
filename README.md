@@ -1,5 +1,9 @@
 # dahliaos grub
 
+:Author: test
+:Source: test
+:Version: beta
+
 ## how to make a bootable usb
 
 ### x86_64
