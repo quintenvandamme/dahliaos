@@ -24,6 +24,7 @@ case $CHOICE in
             echo test
             ;;
         2)
+            git clone https://github.com/HexaOneOfficial/dahliaos.git
             mkdir ~/builddahliagrub
             cd 
             cp -r ~/dahliaos ~/builddahliagrub
@@ -65,5 +66,4 @@ case $CHOICE in
 
 
 esac
-
 
