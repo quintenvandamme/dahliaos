@@ -1,15 +1,15 @@
 # dahliaos grub
 
-| Grub   
-| ----------- 
-| Latest 200804      
-| 200360_2
+## downloads
 
-## how to make a bootable usb
+| Grub         | 64 bit      | 32 bit      |
+| -----------  | ----------- | ----------- |
+| Latest 200804| Download    | Download    |
+| 200630_2     | Download    |      
 
-### x86_64
+## Instructions
 
-**64/32 uefi systems and 64 bios systems**
+**64 bit [64/32 bit uefi 64 bit bios]**
 
 1 download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)**. 
 
