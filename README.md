@@ -1,10 +1,10 @@
-# dahliaos grub
+# dahliaos builds for x86 systems
 
 ## downloads
 
 | Grub         | 64 bit      | 32 bit      |
 | -----------  | ----------- | ----------- |
-| Latest 200804| [Download](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)| Download    |
+| 200804       | [Download](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)| Download    |
 | 200630_2     | [Download](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)    |      
 
 ## Instructions
