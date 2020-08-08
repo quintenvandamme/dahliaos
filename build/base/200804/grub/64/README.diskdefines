@@ -1,4 +1,4 @@
-#define DISKNAME  DahliaOS 200840" - Release amd64
+#define DISKNAME  DahliaOS 200804" - Release amd64
 #define TYPE  binary
 #define TYPEbinary  1
 #define ARCH  amd64
