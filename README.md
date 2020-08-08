@@ -1,8 +1,9 @@
 # dahliaos grub
 
-:Author: test
-:Source: test
-:Version: beta
+| Grub   
+| ----------- 
+| Latest 200804      
+| 200360_2
 
 ## how to make a bootable usb
 
