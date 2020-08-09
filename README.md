@@ -1,4 +1,4 @@
-# dahliaos builds for x86 systems
+# DahliaOS builds for x86 systems.
 
 ## downloads
 
