@@ -30,6 +30,8 @@ case $CHOICE in
             cp ~/builddahlia32/dahliaos/build/200804\|32/base/grub/MD5SUMS ~/builddahlia32     
             cp ~/builddahlia32/dahliaos/build/200804\|32/base/grub/grub32.zip ~/builddahlia32/boot
             cp ~/builddahlia32/dahliaos/build/200804\|32/kernel/grub/default/compiled/bzImage ~/builddahlia32/boot
+            cd
+            cd ~/builddahlia32
             unzip ISOLINUX.zip
             rm ISOLINUX.zip
             cd
