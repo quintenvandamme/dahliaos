@@ -4,7 +4,7 @@
 
 | Grub         | 64 bit      | 32 bit      |         
 | -----------  | ----------- | ----------- |  
-| 200804       | [Download](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)| Download    |  
+| 200804       | [Download](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)| [Download](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804_32.iso)|  
 | 200630_2     | [Download](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)    |     
 
 ## Instructions
@@ -17,6 +17,11 @@
 
 3 disable secure boot if you have that option.
 
+**32 bit [32 bit bios]**
+
+1 download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804_32.iso)**. 
+
+2 then flash the iso to your usb with **etcher [here](https://www.balena.io/etcher/)**.
 
 ## build iso
 
