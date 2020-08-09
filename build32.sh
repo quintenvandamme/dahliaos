@@ -25,11 +25,11 @@ case $CHOICE in
             cd ~/builddahlia32
             git clone https://github.com/HexaOneOfficial/dahliaos.git 
             cd
-            cp ~/builddahlia32/dahliaos/build/200804|32/ISOLINUX/grub/ISOLINUX.zip ~/builddahlia32
-            cp ~/builddahlia32/dahliaos/build/200804|32/base/grub/grub32.zip ~/builddahlia32/boot
-            cp ~/builddahlia32/dahliaos/build/200804|32/base/grub/MD5SUMS ~/builddahlia32     
-            cp ~/builddahlia32/dahliaos/build/200804|32/base/grub/grub32.zip ~/builddahlia32/boot
-            cp ~/builddahlia32/dahliaos/build/200804|32/kernel/grub/default/compiled/bzImage ~/builddahlia32/boot
+            cp ~/builddahlia32/dahliaos/build/200804\|32/ISOLINUX/grub/ISOLINUX.zip ~/builddahlia32
+            cp ~/builddahlia32/dahliaos/build/200804\|32/base/grub/grub32.zip ~/builddahlia32/boot
+            cp ~/builddahlia32/dahliaos/build/200804\|32/base/grub/MD5SUMS ~/builddahlia32     
+            cp ~/builddahlia32/dahliaos/build/200804\|32/base/grub/grub32.zip ~/builddahlia32/boot
+            cp ~/builddahlia32/dahliaos/build/200804\|32/kernel/grub/default/compiled/bzImage ~/builddahlia32/boot
             unzip ISOLINUX.zip
             rm ISOLINUX.zip
             cd
