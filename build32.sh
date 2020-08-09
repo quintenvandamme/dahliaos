@@ -38,6 +38,6 @@ case $CHOICE in
             rm grub32.zip
             wget https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/initrd
             cd
-            sudo rm ~/builddahlia32/dahliaos
+            sudo rm -r ~/builddahlia32/dahliaos
             ;;
 esac
