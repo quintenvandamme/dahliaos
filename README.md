@@ -22,9 +22,13 @@
 
 -**Run this script to build the iso files**
 
+64 bit
+
 - `curl -s https://raw.githubusercontent.com/HexaOneOfficial/dahliaos/master/scripts/64/run.sh | sh` 
 
+32 bit
 
+- `curl -s https://raw.githubusercontent.com/HexaOneOfficial/dahliaos/master/scripts/32/run.sh | sh` 
  
 
 Now copy the files to a windows pc.
