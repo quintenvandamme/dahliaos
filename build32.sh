@@ -32,8 +32,8 @@ case $CHOICE in
             cp ~/builddahlia32/dahliaos/build/200804\|32/kernel/grub/default/compiled/bzImage ~/builddahlia32/boot
             cd
             cd ~/builddahlia32
-            unzip ISOLINUX.zip
-            rm ISOLINUX.zip
+            unzip isolinux.zip
+            rm isolinux.zip
             cd
             cd ~/builddahlia32/boot
             unzip grub32.zip
