@@ -1,4 +1,4 @@
-[include logo]
+![logo](https://github.com/HexaOneOfficial/documentation/blob/master/assets/images/logo/dahlialogo.png)
 
 # booting on 64/32 bios
 
