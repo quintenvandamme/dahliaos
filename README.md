@@ -27,6 +27,8 @@
 
 -**Run this script to build the iso files**
 
+- **!** first install git
+
 64 bit
 
 - `curl -s https://raw.githubusercontent.com/HexaOneOfficial/dahliaos/master/scripts/64/run.sh | sh` 
