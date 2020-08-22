@@ -48,10 +48,6 @@ Now copy the files to a windows pc.
 
 - Download **Rufus [here](https://rufus.ie/)** and flash your iso file to your USB.
 
-
-
-
-
 ### Make a Master boot record(BETA)
 When you have made the iso, go to command prompt. You can go to this by hitting windows + r and typing in cmd. (Make sure you are admin.) 
 
