@@ -1,7 +1,5 @@
 # DahliaOS builds for x86 systems.
 
-[test](./releases/download/200830/DahliaOS200830.iso)
-
 ## downloads
 
 | Grub         | 64 bit      |      
