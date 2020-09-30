@@ -7,6 +7,8 @@
 | 200804       | [Download](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)|  
 | 200630_2     | [Download](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)    |     
 
+[wiki](/wiki)
+
 ## Instructions
 
 **64 bit [64/32 bit uefi 64 bit bios]**
