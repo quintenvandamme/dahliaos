@@ -4,9 +4,9 @@
 
 | version         | Grub         | 64 bit      |      
 | -----------  | -----------  | ----------- | 
-| 201004       |  [x]         | [Download](https://github.com/HexaOneOfficial/dahliaos/releases/download/201004/DahliaOS201004.iso)|  
-| 200804       |  [x]         | [Download](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)|  
-| 200630_2     |  [x]         | [Download](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)    |     
+| 201004       | - [x]        | [Download](https://github.com/HexaOneOfficial/dahliaos/releases/download/201004/DahliaOS201004.iso)|  
+| 200804       | - [x]        | [Download](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)|  
+| 200630_2     | - [x]        | [Download](https://github.com/HexaOneOfficial/dahliaos/releases/download/200630_2/DahliaOS200630_2.iso)    |     
 
 ## Instructions
 
