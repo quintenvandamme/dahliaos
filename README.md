@@ -1,4 +1,4 @@
-# DahliaOS builds for x86_64 systems.
+# DahliaOS grub builds for x86_64 systems.
 
 ## downloads
 
@@ -13,9 +13,9 @@
 
 **64 bit [64/32 bit uefi 64 bit bios]**
 
-1 download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)**. 
+1 Download the latest **iso [here](https://github.com/HexaOneOfficial/dahliaos/releases/download/200804/DahliaOS200804.iso)**. 
 
-2 then flash the iso to your usb with **etcher [here](https://www.balena.io/etcher/)**.
+2 Then flash the iso to your usb with **etcher [here](https://www.balena.io/etcher/)**.
 
-3 disable secure boot if you have that option.
+3 Disable secure boot if you have that option.
 
